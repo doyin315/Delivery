@@ -19,7 +19,7 @@ export class HeaderComponent implements OnInit {
       link:"#"
     },
     {title:"Sign In",
-        link:"/SignIn"
+        link:"/SignIn/"
       },
       {title:"Become a Dispatcher",
       link:"#"
