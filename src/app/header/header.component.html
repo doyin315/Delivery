@@ -1,0 +1,19 @@
+<div class="header">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" routerLink="/homepage/"><img class="img-fluid car mr-5"  src="../../assets/images/logo.png"/></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ">
+          <div *ngFor="let nav of navitems">
+            <li class="nav-item">
+              <a class="nav-link px-3 " routerLink="{{nav.link}}" routerLinkActive="active-link"><small>{{nav.title}}</small></a>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>

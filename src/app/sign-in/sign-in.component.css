@@ -1,0 +1,36 @@
+input
+{
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+}
+.container-fluid,.badge-pill
+{
+  background-color: #5C0426;
+}
+.badge-pill{
+  color:#FFFFFF;
+}
+.sign,.sign:hover{
+  font-weight:bold;
+  text-decoration: none;
+  color: #5C0426
+}
+i{
+  font-size:35px;
+  color: #5C0426
+}
+.cover
+{
+  border-radius: 1%;
+
+}
+.by{
+  background-color: #5C0426;
+  color:white;
+  font-size: 13px;
+}
+.in,.in:hover{
+  color:#AAAAAA;
+  text-decoration: none;
+}

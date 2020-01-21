@@ -1,0 +1,45 @@
+.nav-link{
+  color:#5C0426;
+}
+.find-car{
+  background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../../assets/images/Mask Group 30.png");
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+
+.white{
+  color: #FFFFFF;
+}
+h4{
+  color:#FFCF27;
+}
+.request{
+  background-color: #5C0426;
+  color: white;
+  width:30%;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  border-left:none;
+  border-top: none;
+  border-bottom:none;
+ }
+ input
+{
+  height: 60px;
+}
+
+.download-app{
+  background: linear-gradient(#5C0426,#5C0317);
+  height:350px;
+}
+
+input:focus{
+  outline-style:none;
+  box-shadow: none;
+  border:none;
+}

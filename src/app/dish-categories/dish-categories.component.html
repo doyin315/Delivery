@@ -1,0 +1,67 @@
+<div class="container-fluid cover mt-5 pb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-3">
+        <div class="mb-2 heading">Category</div>
+          <div class="panel panel-default shadow-sm py-1 pl-1 pan " *ngFor="let dish of dishes">
+            <div class="panel body">
+              <div class="dish">{{dish.title}}</div>
+            </div>
+          </div>
+      </div>
+      <div class="col-6 col-md-6">
+        <div class="mb-2" *ngFor="let cat of Category">
+
+          <div class="heading">{{cat.title}}</div>
+          <div class="panel panel-default shadow-sm pan" *ngFor="let main of MainDish">
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <img class="img-fluid py-2 px-2"src="../../assets/images/jollof.png" />
+                </div>
+                <div class="col-12 col-md-5">
+                  <div class="heading">{{main.title}}<br />
+                  <p>1 Portion</p>
+                  <div class="align-bottom">#500.00</div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-3">
+                  <button class="white px-3 add">
+                  <div class="add d-inline">ADD
+                  </div><i class="fas fas fa-plus-circle"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+           
+        </div>
+      </div>
+    <div classs="col-12 col-md-3">
+    <div class="heading">Your Order</div>
+    <div class="panel panel-default container shadow-sm" >
+      <div class="panel body  pt-2">
+        <div  *ngFor="let main of MainDish">
+          <div class="d-inline pr-5">{{main.title}}</div>
+            <button class="px-2 minus"><i class="fas fas fa-minus-circle"></i>
+              <div class="d-inline mx-3 white">3</div>
+              <i class="fas fa-plus-circle"></i>
+            </button>
+          </div>
+        </div>
+        <div class="d-inline ">Sub-Total</div>
+        <div class="d-inline align-right">#2004.76</div>
+        <hr />
+        <div *ngFor="let cost of costs" class="txt">
+          <div class="d-inline" >{{cost.title}}</div>
+          <div class="d-inline align-right">{{cost.price}}</div>
+        </div>
+        <hr />
+        <div>
+          <div class="d-inline ">Total</div>
+          <div class="d-inline align-right">#4000.76</div>
+        </div>
+        <button class="white proceed mt-4 mb-3">Proceed To Checkout</button>
+      </div>
+    </div>
+  </div>
+</div>

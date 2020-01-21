@@ -1,0 +1,24 @@
+.pan1{
+  height:200px;
+  border-bottom: none;
+  text-align: center;
+  width:180px;
+}
+.s1,.s2,.s3{
+  color: #EEBD01;
+}
+.caption{
+  border: none;
+  width:180px;
+}
+
+.fa-angle-left,.fa-angle-right{
+  padding-top:100px;
+}
+.txt{
+  font-size: 30px;
+}
+img{
+width: 180px;
+height: 160px;
+}

@@ -1,0 +1,125 @@
+<app-header></app-header>
+<div class="container">
+  <nav class="navbar navbar-expand-md ">
+    <div class="container">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active" *ngFor="let nav of navitems">
+          <a class="nav-link" href="#"><small>{{nav.title}}</small></a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+</div>
+
+<div class="container-fluid food">
+  <div class="container">
+    <div class="text-center deliver  mx-auto text">
+    <h2>Search by food or restaurants</h2>
+    </div>
+      <form class="form-group pt-5">
+      <div class="input-group">
+        <input type="text" class="badge-pill form-control search" placeholder="Find restaurants, foods, menus…"/>
+        <button class="request ">Search</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+<div class="container-fluid panels py-5">
+  <div class='container'>
+    <div class="row">
+      <div class="col-12 col-md-4">
+        <div class="panel panel-default">
+          <div class="panel body">
+            <h4>FILTER</h4>
+            <form class="form-group">
+              <input class="ml-2 filter" type="text" placeholder="search"/><br/>
+              <div *ngFor="let rating of ratings">
+                <input class="my-3 mr-2 ml-2" type="checkbox"/>{{rating.food}}<br/>
+              </div>
+            </form>
+            <hr />
+            <h4>RATINGS</h4>
+            <form class="form-group">
+
+              <app-ratings></app-ratings>
+
+              <button type="submit" class="btn badge-pill ml-2">Apply Filter</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-8">
+        <div class="row justify-content-end">
+          <div class="col-auto">
+            <ul class="nav nav-pills">
+            <div *ngFor="let pill of pills">
+              <li class="nav-item">
+                <a class="nav-link mx-1" href="#">{{pill.title}}</a>
+              </li>
+            </div>
+            </ul>
+          </div>
+        </div>
+        <div *ngFor="let place of places">
+          <div class="row jollofpanel pt-2">
+            <div class="col-12">
+              <div class="panel panel-default ">
+                <div class="panel body ">
+                  <div class="row">
+                    <div class="col-12 col-md-3">
+                      <img  class="jollof ml-2 my-2" src="{{place.logo}}" />
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <div class="txt">
+                        <h3>{{place.title}}</h3>
+                        <p>African, Nigerian, International</p>
+                        <i class="fa fa-star s" aria-hidden="true"></i>
+                        <i class="fa fa-star s" aria-hidden="true"></i>
+                        <i class="fa fa-star s" aria-hidden="true"></i>
+                        <i class="fa fa-star " aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <button class="brown mt-5">Start Ordering</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row my-2">
+          <div class="col-12">
+          <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-end">
+    <li class="page-item  disabled">
+      <a class="page-link mx-2 " href="#" tabindex="-1">Previous</a>
+    </li>
+    <li class="page-item mx-2 "><a class="page-link" href="#">1</a></li>
+    <li class="page-item mx-2"><a class="page-link" href="#">2</a></li>
+    <li class="page-item mx-2"><a class="page-link" href="#">3</a></li>
+    <li class="pb-0 pt-3 mx-2">. . .</li>
+     <li class="page-item mx-2"><a class="page-link" href="#">10</a></li>
+    <li class="page-item mx-2">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-food-cart></app-food-cart>
+<app-newsletter></app-newsletter>
+<app-footer></app-footer>

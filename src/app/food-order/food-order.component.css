@@ -1,0 +1,10 @@
+.place{
+  background:url("../../assets/images/Mask Group 2.png");
+  height: 300px;
+}
+
+.logo{
+ position:relative;
+ padding-top:130px;
+ left:20%;
+}

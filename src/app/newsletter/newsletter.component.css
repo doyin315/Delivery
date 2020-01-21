@@ -1,0 +1,20 @@
+.request{
+  background-color: #5C0426;
+  color: white;
+  width:30%;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  border-left:none;
+  border-top: none;
+  border-bottom:none;
+ }
+ input
+ {
+   width:70%;
+   height:70px;
+ }
+
+ input[type="email"]::placeholder {
+  font-size: 30px;
+  border-right: none;
+ }

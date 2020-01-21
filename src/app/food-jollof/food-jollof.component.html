@@ -1,0 +1,24 @@
+<div class="container my-5 py-5">
+  <div class="m-auto text-center txt">
+    Recommend Restaurants
+  </div>
+  <div class="row">
+
+      <div class="col-12 col-md-3" *ngFor="let food of foods">
+        <div class="panel panel-default pan1">
+          <div class="panel-body ">
+            <img src="../../assets/images/jollof.png" />
+            <div class="caption shadow-sm rounded">
+              <p >{{food.title}}</p>
+              <i class="fa fa-star s1" aria-hidden="true"></i>
+              <i class="fa fa-star s2" aria-hidden="true"></i>
+              <i class="fa fa-star s3" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+</div>

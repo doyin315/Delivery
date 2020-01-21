@@ -1,0 +1,65 @@
+.header{
+  background-color: #5C0317;
+}
+
+.box{
+  height: 400px;
+  width: 800px;
+  margin-top:50px;
+  padding-bottom:0px;
+  margin-bottom:0px;
+
+}
+.txt{
+  padding-top: 130px;
+  color: white;
+}
+
+.android{
+  font-weight: bold;
+  color: #FFCF27;
+  font-size:12px;
+}
+.google{
+  height: 60px;
+  width:200px;
+}
+.cover1
+{
+  background-color: #5C0426;
+}
+
+.cover3{
+  background-image:linear-gradient(to right,rgba(0, 0, 0, 1)5%,rgba(0, 0, 0, 0.8) 5%
+  ,rgba(0, 0, 0, 0.47) 10%), url("../../assets/images/MaskGroup52.png");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:500px;
+}
+
+.cartext h1{
+  font-size:65px;
+}
+
+input
+{
+  width:70%;
+  height:70px;
+}
+
+input[type="email"]::placeholder {
+ font-size: 30px;
+ border-right: none;
+}
+
+
+.white{
+  color:white;
+}
+ 
+
+.cover4{
+  background-color: black;
+  height: 500px;
+}

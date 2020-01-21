@@ -1,0 +1,20 @@
+.header{
+  background-image:linear-gradient(to right,#5C0426,#5C0317);
+
+}
+
+.nav-link,.navbar-brand
+{
+  color: white;
+}
+.car
+{
+ height:35px;
+ width:120px
+}
+.active-link{
+  color:#FFCF27;
+}
+.navbar-toggler-icon{
+  color:white;
+}

@@ -1,0 +1,95 @@
+.nav-link{
+  color:#5C0426;
+}
+.food{
+  background-image: url("../../assets/images/Mask Group 4.png");
+  height:500px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.request{
+  background-color: #5C0426;
+  color: white;
+  width:30%;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  border-left:none;
+  border-top: none;
+  border-bottom:none;
+ }
+.search
+ {
+   height:60px;
+   border-top:none;
+   border-bottom: none;
+   width:70%;
+ }
+.search:focus,.filter:focus{
+   outline-style:none;
+   box-shadow: none;
+   border-right:none;
+
+ }
+ .text
+ {
+   padding-bottom:10px;
+   padding-top: 150px;
+ }
+.panels{
+  background-color: #F8F8F9;
+}
+.panel{
+  background-color:white
+}
+.filter{
+  width:95%;
+  border-radius:5px;
+}
+
+
+
+.nav-link
+{
+  border: none;
+  background-color: white;
+  border-radius: 0px;
+  color:#676768;
+  width:80px;
+}
+.act
+{
+  background-color: #5C0426;
+  color:white;
+}
+
+.btn{
+  background-color:#5C0426;
+  width:95%;
+  height: 50px;
+  color:white;
+}
+.pan1{
+  height:80px;
+  border:none;
+  font-size: 30px;
+  text-align: center;
+  width:200px;
+}
+.jollof{
+  height:90px;
+  width:60%;
+}
+
+.brown{
+  background-color: #5C0317;
+  color:white;
+  border:none;
+}
+.jollofpanel{
+  height: 120px;
+}
+

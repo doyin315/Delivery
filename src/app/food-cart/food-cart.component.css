@@ -1,0 +1,16 @@
+.cover{
+  background-color: black;
+  height: 400px;
+  overflow:hidden;
+}
+.phone{
+ height:650px;
+
+}
+.burger{
+  height: 400px;
+}
+.chat{
+  color:white;
+}
+

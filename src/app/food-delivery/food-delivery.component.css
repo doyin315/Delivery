@@ -1,0 +1,46 @@
+.food{
+  background-image: url("../../assets/images/Mask Group 4.png");
+  height:500px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.request{
+  background-color: #5C0426;
+  color: white;
+  width:30%;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  border-left:none;
+  border-top: none;
+  border-bottom:none;
+ }
+
+ .deliver
+{
+  color:#420000;
+  font-weight: bold;
+  font-size:30px;
+}
+.text
+{
+  padding-bottom:10px;
+  padding-top: 150px;
+}
+select
+{
+  height:60px;
+  border-top:none;
+  border-bottom: none;
+}
+select:focus{
+  outline-style:none;
+  box-shadow: none;
+}
+
+
+
+

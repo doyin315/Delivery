@@ -1,0 +1,26 @@
+.container-fluid{
+  background-image:linear-gradient(to right,rgba(0, 0, 0, 1)5%,rgba(0, 0, 0, 0.8) 5%
+  ,rgba(0, 0, 0, 0.47) 10%), url("../../assets/images/MaskGroup52.png");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:350px;
+}
+.text{
+  color: white;
+}
+
+.text button{
+  background-color: rgb(43, 5, 19);
+  color:white;
+  font-size: 20px;
+  width:30%;
+  height: 70px;
+  border:none;
+}
+
+.container{
+  padding-top: 75px;
+  padding-bottom: 75px;
+
+}
