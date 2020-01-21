@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WhiteNavbarComponent implements OnInit {
   navitems=[{title:"Home",
-    link:"#"
+    link:"/foodsearch"
       },
       {title:"Payment Methods",
-      link:"#"
+      link:"/foodorder"
       },
       {title:"History",
           link:"#"
